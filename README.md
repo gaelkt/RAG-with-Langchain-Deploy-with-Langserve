@@ -4,18 +4,15 @@ This tutorial helps you the build RAG models with LangChain and deploy them as a
 
 
 
-
-# Training and Serving machine learning with MLflow
-
 ## Install
 * *pip install -r requirements* *
 
 ## Credentials
 You need to create an .env file where you will put your Open API Key
 
-## Start de LangServe serve with the following command
+## Start the LangServe serve with the following command
 
-python app.py
+* *python app.py* *
 
 ## Multiple Query Retriever
 
@@ -27,6 +24,22 @@ The MultiQueryRetriever automates the process of prompt tuning by using an LLM t
 
 ## Fusion RAG
 
-It performs multiple query generation and Reciprocal Rank Fusion to re-rank search results.
+It performs multiple query generation and Reciprocal Rank Fusion to re-rank search results and generate a more relevant context.
 
 * *python client.py --rag-type "fusion_rag" --question "What is a TI-ADC ?"
+
+
+## Query decomposition
+This process of splitting an input into multiple distinct sub-queries is what we refer to as query decomposition. It is also sometimes referred to as sub-query generation
+
+https://arxiv.org/pdf/2205.10625
+
+Coming ...
+
+## Step back prompting
+
+Step-Back Prompting is a prompting technique enabling LLMs to perform abstractions, derive high-level concepts & first principles from which accurate answers can be derived.
+
+Coming ...
+
+https://arxiv.org/pdf/2310.06117.pdf
