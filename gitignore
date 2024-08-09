@@ -24,7 +24,7 @@ jspm_packages/
 # dotenv environment variables file
 .env
 
-# dotenv environment variables file with alternative extensions
+# dotenv environment variables file with alternative extensions and secrets
 .env.*.local
 
 # OS-specific files

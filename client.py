@@ -5,6 +5,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 
+# Input of the query
 parser.add_argument("--rag_type", choices=['multiple_rag', 'fusion_rag'], default = "multiple_rag", help="select type of rag")
 parser.add_argument("--question", help="Enter your question")
 

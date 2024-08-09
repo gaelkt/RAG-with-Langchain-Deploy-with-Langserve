@@ -12,4 +12,4 @@ tiktoken==0.7.0  # For embeddings
 langserve
 sse_starlette==2.1.3
 
-# install markdown depenendies with: `pip install "unstructured[md]"` after install the requirements file. Leave this line commented out....... .
+# install markdown depenendies with: `pip install "unstructured[md]"` after install the requirements file. Leave this line commented out.... .

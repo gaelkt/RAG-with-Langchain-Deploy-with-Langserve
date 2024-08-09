@@ -12,7 +12,7 @@ from langchain.load import dumps, loads
 load_dotenv()
 openai.api_key = os.environ['OPENAI_API_KEY']
 
-
+# database local path
 CHROMA_PATH = "./chroma"
 
 PROMPT_TEMPLATE = """
