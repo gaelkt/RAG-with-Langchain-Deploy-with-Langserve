@@ -1,0 +1,55 @@
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# dotenv environment variables file
+.env
+
+# dotenv environment variables file with alternative extensions
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Optional lock file
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# Hidden files
+.*.swp
+.*.swo
+.*.swn
