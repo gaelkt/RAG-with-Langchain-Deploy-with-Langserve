@@ -16,7 +16,7 @@ You need to create an .env file where you will put your Open API Key
 
 ## Multiple Query Retriever
 
-* *python client.py --rag-type "multiple_rag" --question "What is a TI-ADC ?"
+* *python client.py --rag-type "multiple_rag" --question "What is a TI-ADC ?"* *
 
 Distance-based vector database retrieval embeds (represents) queries in high-dimensional space and finds similar embedded documents based on "distance". But, retrieval may produce different results with subtle changes in query wording or if the embeddings do not capture the semantics of the data well. Prompt engineering / tuning is sometimes done to manually address these problems, but can be tedious.
 
@@ -26,7 +26,7 @@ The MultiQueryRetriever automates the process of prompt tuning by using an LLM t
 
 It performs multiple query generation and Reciprocal Rank Fusion to re-rank search results and generate a more relevant context.
 
-* *python client.py --rag-type "fusion_rag" --question "What is a TI-ADC ?"
+* *python client.py --rag-type "fusion_rag" --question "What is a TI-ADC ?" * *
 
 
 ## Query decomposition
